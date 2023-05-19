@@ -1,11 +1,12 @@
 import './App.css';
+import Home from './companent/home/Home';
 import Navbar from './companent/navbar/Navbar';
 
 function App() {
   return (
    <>
         <Navbar/>
-        
+        <Home/>
    </>
   );
 }
