@@ -1,13 +1,15 @@
 import './App.css';
 import Home from './companent/home/Home';
 import Navbar from './companent/navbar/Navbar';
+import Services from './companent/services/Services';
 
 function App() {
   return (
-   <>
-        <Navbar/>
-        <Home/>
-   </>
+    <>
+      <Navbar />
+      <Home />
+      <Services/>
+    </>
   );
 }
 

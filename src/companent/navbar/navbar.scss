@@ -1,12 +1,22 @@
+
+:root {
+    --one-color: rgb(20, 20, 85);
+  }
+:root {
+    --one-color-two: darkorchid;
+  }
+
 .navbar {
+    margin-top: 0;
     width: 100%;
     height: 90px;
     display: flex;
     justify-content: center;
     background-color: white;
-    position: fixed;
+    // position: fixed;
 
     &>div {
+        margin-top: 0;
         width: 95%;
         height: 100%;
         display: flex;
@@ -26,14 +36,14 @@
                 margin-left: 20px;
 
                 &:hover {
-                    color: darkorchid;
+                    color: var(--one-color-two);
                 }
             }
         }
 
         &>button {
             padding: 15px 34px;
-            background-color: darkorchid;
+            background-color: var(--one-color-two);
             border-radius: 25px;
             border: none;
             outline: none;
@@ -41,7 +51,7 @@
             font-size: 18px;
 
             &:hover {
-                background-color: rgb(20, 20, 85);
+                background-color: var(--one-color);
             }
         }
     }
