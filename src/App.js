@@ -1,7 +1,11 @@
 import './App.css';
 import Home from './companent/home/Home';
 import Navbar from './companent/navbar/Navbar';
-import Services from './companent/services/Services';
+import Services,{Number} from './companent/services/Services';
+import About from './companent/About/About';
+import Testimon from './companent/testimonials/Testimon';
+import Clients from './companent/clients/Clients';
+import Contact from './companent/contact/Contact';
 
 function App() {
   return (
@@ -9,6 +13,11 @@ function App() {
       <Navbar />
       <Home />
       <Services/>
+      <Number/>
+      <About/>
+      <Testimon/>
+      <Clients/>
+      <Contact/>
     </>
   );
 }

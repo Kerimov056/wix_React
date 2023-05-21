@@ -1,0 +1,80 @@
+:root {
+    --one-color: rgb(20, 20, 85);
+  }
+
+
+.clients{
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(220, 204, 227);
+
+    .up{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        position: relative;
+
+        &>h2{
+            position: absolute;
+            font-size: 16px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+
+    .line{
+        width: 100%;
+        height: 1px;
+        background-color: white;
+    }
+
+    .low{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .one{
+
+            &>button{
+                padding: 1px 6px;
+                font-size: 23px;
+                font-weight: 600;
+                border: none;
+                color: white;
+                background-color: var(--one-color);
+                margin-left: 3px;
+            }
+        }
+
+        .two{
+
+            &>h1{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                letter-spacing: 4px;
+            }
+        }
+        .there{
+
+            &>h1{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                letter-spacing: -4px;
+            }
+        }
+        .fo{
+
+            &>h1{
+                font-family:'Times New Roman', Times, serif;
+            }
+        }
+        .five{
+
+            &>h1{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+        }
+
+    }
+}
