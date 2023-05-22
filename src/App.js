@@ -6,6 +6,9 @@ import About from './companent/About/About';
 import Testimon from './companent/testimonials/Testimon';
 import Clients from './companent/clients/Clients';
 import Contact from './companent/contact/Contact';
+import GoogleMap from './companent/googleMap/GoogleMap';
+import Footer from './companent/footer/Footer';
+
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
       <Testimon/>
       <Clients/>
       <Contact/>
+      <GoogleMap/>
+      <Footer/>
     </>
   );
 }
