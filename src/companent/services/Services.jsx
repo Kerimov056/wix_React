@@ -53,8 +53,11 @@ export const Number = () => {
                         </div>
                         <div className='sum'>
                             <Say say={15} text={"Years of Experience"}/>
+                            <p className='point'></p>
                             <Say say={36} text={"Qualified Experts"}/>
+                            <p className='point'></p>
                             <Say say={120} text={"Clients Every Year"}/>
+                            <p className='point endpoint'></p>
                             <Say say={9} text={"Intl. Partners"}/>
                         </div>
                     </div>

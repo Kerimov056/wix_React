@@ -126,9 +126,21 @@
                 flex-wrap: wrap;
                 margin-left: 1px;
 
+                .point{
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background-color: white;
+                    position: relative;
+                    margin-top: 50px;
+                }
+                .endpoint{
+                    margin-left: 40px;
+                }
+
                 &>div{
                     margin-left: 40px;
-                    width: 20%;
+                    width: 18.7%;
                     height: auto;
                     color: white;
                     
