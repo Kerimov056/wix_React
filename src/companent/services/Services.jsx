@@ -14,9 +14,9 @@ const Services = () => {
                     </div>
                     <div className='low'>
                         <div className='low_in'>
-                            <Cart img={'one.png'} name={'Business Plans'} info="I'm a paragraph.Click here to add your own text and edit me."/>
-                            <Cart img={'two.png'} name={'Accounting Services'} info="I'm a paragraph.Click here to add your own text and edit me."/>
-                            <Cart img={'there.png'} name={'Finance Optimization'} info="I'm a paragraph.Click here to add your own text and edit me."/>
+                            <Cart img={'./image/one.png'} name={'Business Plans'} info="I'm a paragraph.Click here to add your own text and edit me."/>
+                            <Cart img={'./image/two.png'} name={'Accounting Services'} info="I'm a paragraph.Click here to add your own text and edit me."/>
+                            <Cart img={'./image/uc.png'} name={'Finance Optimization'} info="I'm a paragraph.Click here to add your own text and edit me."/>
                         </div>
                     </div>
                 </div>
